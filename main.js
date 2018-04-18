@@ -10,6 +10,6 @@ function calculate(){
     .then(myJson=>{
         console.log(myJson.bpi.USD.rate);
         var value=document.getElementById("money");
-        value.innerHTML=myJson.bpi.USD.rate;
+        value.innerHTML="USD "+myJson.bpi.USD.rate;
     });
 }
